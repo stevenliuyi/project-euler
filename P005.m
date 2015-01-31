@@ -11,3 +11,7 @@ smallestMultiple[n_Integer] :=
     ];
 
 smallestMultiple[20]
+
+(* use built-in function LCM *)
+
+LCM @@ Range[20]
